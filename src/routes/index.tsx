@@ -47,7 +47,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const WHATSAPP = "https://wa.me/5511940300560";
+const WHATSAPP = "https://wa.me/5541984968570";
 
 const navLinks = [
   { label: "Início", href: "#inicio" },
@@ -182,19 +182,19 @@ function Index() {
               <i className="fa-regular fa-clock mr-1.5 text-primary" />
               Seg - Sáb: 8:00 às 18:00 | Emergência 24h
             </span>
-            <a href="tel:+551143787585" className="min-w-0 truncate text-right transition-colors hover:text-foreground sm:text-left">
+            <a href="tel:+5541984968570" className="min-w-0 truncate text-right transition-colors hover:text-foreground sm:text-left">
               <i className="fa-solid fa-phone mr-1.5 text-primary" />
-              (11) 4378-7585
+              (41) 98496-8570
             </a>
           </div>
           <div className="contents sm:flex sm:items-center sm:gap-5">
             <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" className="min-w-0 truncate transition-colors hover:text-foreground">
               <i className="fa-brands fa-whatsapp mr-1.5 text-primary" />
-              (11) 94030-0560
+              (41) 98496-8570
             </a>
             <span className="min-w-0 truncate text-right">
               <i className="fa-solid fa-location-dot mr-1.5 text-primary" />
-              Curitiba - PR
+              R. Maestro Francisco Antonello, 1452 - Fanny, Curitiba
             </span>
           </div>
         </div>
@@ -554,7 +554,7 @@ function Index() {
               A TecGaz Aquecedores é uma empresa especializada em sistemas de aquecimento de água a gás em Curitiba. Atuamos com venda, instalação, manutenção preventiva, conserto e conversão de gás, sempre em conformidade rigorosa com as normas técnicas da ABNT NBR 13103.
             </p>
             <p className="mt-3 text-base leading-relaxed text-muted-foreground">
-              Nossa equipe é altamente certificada e trabalha exclusivamente com peças originais, realizando testes de estanqueidade e emissão de laudo para condomínios, residências e empresas.
+              Nossa equipe é highly certificada e trabalha exclusivamente com peças originais, realizando testes de estanqueidade e emissão de laudo para condomínios, residências e empresas.
             </p>
             <ul className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
               {[
@@ -586,7 +586,7 @@ function Index() {
         <div className="text-center">
           <h2 className="text-3xl font-bold md:text-4xl">Como Chegar na TecGaz Curitiba</h2>
           <p className="mx-auto mt-3 max-w-2xl text-base text-muted-foreground">
-            Atendimento presencial em Curitiba - PR. Venha nos visitar ou solicite uma visita técnica no seu endereço.
+            Estamos localizados no bairro Fanny, em Curitiba. Venha nos visitar ou solicite uma visita técnica no seu endereço.
           </p>
         </div>
 
@@ -596,15 +596,15 @@ function Index() {
             <ul className="mt-6 flex flex-col gap-4 text-sm text-muted-foreground">
               <li className="flex gap-3">
                 <i className="fa-solid fa-location-dot mt-1 text-primary text-lg" />
-                <span>Curitiba - PR</span>
+                <span>R. Maestro Francisco Antonello, 1452 - Lj 3 - Fanny, Curitiba - PR, 81030-100</span>
               </li>
               <li className="flex gap-3">
                 <i className="fa-solid fa-phone mt-1 text-primary text-lg" />
-                <span>(41) 99999-9999</span>
+                <span>(41) 98496-8570</span>
               </li>
               <li className="flex gap-3">
                 <i className="fa-brands fa-whatsapp mt-1 text-primary text-lg" />
-                <span>(41) 99999-9999</span>
+                <span>(41) 98496-8570</span>
               </li>
               <li className="flex gap-3">
                 <i className="fa-regular fa-clock mt-1 text-primary text-lg" />
@@ -612,7 +612,7 @@ function Index() {
               </li>
             </ul>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=TecGaz+Aquecedores+Curitiba"
+              href="https://www.google.com/maps/dir/?api=1&destination=R.+Maestro+Francisco+Antonello%2C+1452+-+Lj+3+-+Fanny%2C+Curitiba+-+PR%2C+81030-100"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-lg shadow-primary/20 transition-all hover:bg-tecgaz-red-hover"
@@ -625,7 +625,7 @@ function Index() {
           <div className="overflow-hidden rounded-2xl border border-border shadow-2xl lg:col-span-2">
             <iframe
               title="Mapa da localização da TecGaz Aquecedores em Curitiba"
-              src="https://maps.google.com/maps?q=Curitiba%20-%20PR&t=&z=12&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=R.%20Maestro%20Francisco%20Antonello%2C%201452%20-%20Lj%203%20-%20Fanny%2C%20Curitiba%20-%20PR%2C%2081030-100&t=&z=16&ie=UTF8&iwloc=&output=embed"
               className="h-[400px] w-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -648,14 +648,14 @@ function Index() {
             className="rounded-xl bg-tecgaz-dark-900 px-8 py-4 text-sm font-bold uppercase tracking-wider text-foreground shadow-2xl transition-transform hover:scale-105"
           >
             <i className="fa-brands fa-whatsapp mr-2 text-xl text-emerald-400" />
-            Chamar no WhatsApp
+            Chamar no WhatsApp (41) 98496-8570
           </a>
           <a
-            href="tel:+5541999999999"
+            href="tel:+5541984968570"
             className="rounded-xl border border-primary-foreground/30 bg-primary-foreground/10 px-8 py-4 text-sm font-semibold backdrop-blur-md transition-colors hover:bg-primary-foreground/20"
           >
             <i className="fa-solid fa-phone mr-2" />
-            Ligar para Assistência Curitiba
+            Ligar para (41) 98496-8570
           </a>
         </div>
       </section>
@@ -685,15 +685,15 @@ function Index() {
             <ul className="mt-4 flex flex-col gap-2.5">
               <li>
                 <i className="fa-solid fa-location-dot mr-2 text-primary" />
-                Curitiba - PR
+                R. Maestro Francisco Antonello, 1452 - Lj 3 - Fanny - Curitiba - PR, 81030-100
               </li>
               <li>
                 <i className="fa-solid fa-phone mr-2 text-primary" />
-                (41) 99999-9999
+                (41) 98496-8570
               </li>
               <li>
                 <i className="fa-brands fa-whatsapp mr-2 text-primary" />
-                (41) 99999-9999
+                (41) 98496-8570
               </li>
             </ul>
           </div>
