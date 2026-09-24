@@ -17,7 +17,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-const WHATSAPP_BASE = "https://wa.me/5511940300560";
+const WHATSAPP_BASE = "https://wa.me/5541984968570";
 
 export interface ServiceItem {
   id: string;
